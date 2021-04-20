@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <strong id="Time">弹出</strong>
+
+  <script>
+    var strongAlert = document.getElementById("Time")
+    strongAlert.addEventListener("click",function(){
+      var myDate = new Date()
+      var mytime=myDate.toLocaleTimeString();
+      alert(mytime)
+    })
+  </script>
+</body>
+</html>
